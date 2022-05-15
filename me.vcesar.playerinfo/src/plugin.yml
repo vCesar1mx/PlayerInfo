@@ -1,0 +1,25 @@
+name: PlayerInfo
+version: "1.0"
+main: me.vcesar.playerinfo.Main
+description: Show information of player
+author: vCesar
+    
+commands:       
+    info:
+        description: show information of user.
+        permission: playerinfo.admin
+        usage: /info (username)
+        permission-message: You don't have <permission>
+    playerinfo:
+        description: show information of user.
+        permission: playerinfo.admin
+        usage: /info (username)
+        permission-message: You don't have <permission>
+    pi:
+        description: show information of user.
+        permission: playerinfo.admin
+        usage: /info (username)
+        permission-message: You don't have <permission>
+permissions:
+    playerinfo.admin:
+        description: usage of /info, default for opped users
