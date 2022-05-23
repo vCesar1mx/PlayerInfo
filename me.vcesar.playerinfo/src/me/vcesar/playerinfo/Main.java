@@ -39,9 +39,10 @@ public class Main extends JavaPlugin {
     public class playerinfo implements CommandExecutor {
         @Override
         public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-            Player player = (Player) sender;
+            
             
     if (sender instanceof Player) {
+               Player player = (Player) sender;
                 if(args.length == 0){
                     sender.sendMessage(ChatColor.RED+("Necesitas especificar un jugador"));
                 }
