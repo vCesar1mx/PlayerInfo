@@ -22,4 +22,4 @@ commands:
         permission-message: You don't have <permission>
 permissions:
     playerinfo.admin:
-        description: usage of /info, default for opped users
+        description: usage of /info, default for opped user
